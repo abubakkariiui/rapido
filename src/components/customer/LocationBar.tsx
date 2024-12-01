@@ -11,6 +11,7 @@ import CustomText from "../shared/CustomText";
 
 const LocationBar = () => {
   const { location } = useUserStore();
+  console.log("locationasdf", location);
   const { disconnect } = useWS();
 
   return (
